@@ -665,8 +665,8 @@ public class VRTouchMove : MonoBehaviour
     bool RandomPoint(Vector3 center, float range, out Vector3 result)
     {
         Vector3 holder = center + Random.insideUnitSphere * range;
-        NavMeshHit hit;
-        if (NavMesh.SamplePosition(holder, out hit, 1.0f, 1 << NavMesh.GetNavMeshLayerFromName("Walkable")))
+        UnityEngine.AI.NavMeshHit hit;
+        if (UnityEngine.AI.NavMesh.SamplePosition(holder, out hit, 1.0f, 1 << UnityEngine.AI.NavMesh.GetNavMeshLayerFromName("Walkable")))
         {
             result = hit.position;
             return true;

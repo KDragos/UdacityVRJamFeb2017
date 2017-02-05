@@ -9,9 +9,9 @@ public class NetworkedPlayer : Photon.MonoBehaviour {
 	public Transform playerGlobal;
 	public Transform playerLocal;
 
-	void Start ()
+	void Awake ()
 	{
-		Debug.Log("i'm instantiated");
+		Debug.Log("I'm instantiated");
 
 		if (photonView.isMine)
 		{

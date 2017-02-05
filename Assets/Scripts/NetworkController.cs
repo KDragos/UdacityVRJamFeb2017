@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class NetworkController : MonoBehaviour {
 
-	string _room = "Tutorial_Convrge";
+	string _room = "EscapeRoom";
+
 
 	void Start()
 	{
@@ -16,11 +17,14 @@ public class NetworkController : MonoBehaviour {
 		Debug.Log("joined lobby");
 
 		RoomOptions roomOptions = new RoomOptions() { };
+		// Set number of max players in the room. 
+		roomOptions.MaxPlayers = 2;
 		PhotonNetwork.JoinOrCreateRoom(_room, roomOptions, TypedLobby.Default);
 	}
 
 	void OnJoinedRoom()
 	{
 		PhotonNetwork.Instantiate("NetworkPlayer", Vector3.zero, Quaternion.identity, 0);
+		Debug.Log("Joined Room: " + PhotonNetwork.room.ToString());
 	}
 }

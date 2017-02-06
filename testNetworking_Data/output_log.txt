@@ -1,0 +1,69 @@
+Initialize engine version: 5.5.0p4 (2f9c3a0f4141)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
+    Vendor:   NVIDIA
+    VRAM:     2016 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\Photon3Unity3D.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\Photon3Unity3D.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\DOTween.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\DOTween.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\DOTween43.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\DOTween43.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\DOTween46.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\DOTween46.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\DOTween50.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\DOTween50.dll into Unity Child Domain
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\NSpeex.dll (this message is harmless)
+Loading C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\NSpeex.dll into Unity Child Domain
+- Completed reload, in  0.087 seconds
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\System.dll (this message is harmless)
+OnLevelWasLoaded was found on VRFadeScript
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 382)
+
+OnLevelWasLoaded was found on OVRScreenFade
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 382)
+
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.985876 ms
+[NewtonVR] Version : 1.191. Found VRDevice: Oculus Rift CV1. Using Oculus SDK
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unity v5.5.0p4, Oculus Utilities v1.10.0, OVRPlugin v1.10.0, SDK v1.11.0.
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: C:\Users\Kristin\Desktop\UnityApps\UdacityVRJamFeb2017\testNetworking_Data\Managed\System.Xml.dll (this message is harmless)
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 54c8 -> priority: 1 

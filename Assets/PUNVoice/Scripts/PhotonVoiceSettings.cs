@@ -35,7 +35,7 @@ public class PhotonVoiceSettings : MonoBehaviour
     public float VoiceDetectionThreshold = 0.01f;       // set in inspector
 
     /// Remote audio stream playback delay to compensate packets latency variations (applied per every speaker instance). Try 100 - 200 if sound is choppy.
-    public int PlayDelayMs = 200;                       // set in inspector
+    public int PlayDelayMs = 2000;                       // set in inspector
 
     /// Lost frames simulation ratio.
     public int DebugLostPercent = 0;                    // set in inspector

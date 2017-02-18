@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using NewtonVR;
 using UnityEngine;
+using NewtonVR;
 
 public class Monitor : MonoBehaviour {
 
@@ -27,8 +27,10 @@ public class Monitor : MonoBehaviour {
 
         if (Button.ButtonDown && attachPointScript.IsAttached)
         {
-            Material contentMaterial = Resources.Load("Materials/monitorcontent", typeof(Material)) as Material;
-            MonitorContent.GetComponent<Renderer>().material = contentMaterial;
+            //Material contentMaterial = Resources.Load("Materials/monitorcontent", typeof(Material)) as Material;
+            MonitorContent.SetActive(true);
+            MonitorContent.GetComponent<Renderer>().enabled = true;
+            
         }
     }
 }

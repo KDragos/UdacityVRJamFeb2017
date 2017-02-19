@@ -38,8 +38,6 @@ public class MyLocalVoiceController : VoiceControllerBase
 	}
 
 	void Update() {
-		if (isTalking ()) {
-			Debug.Log ("I'm talking!");
-		}
+
 	}
 }

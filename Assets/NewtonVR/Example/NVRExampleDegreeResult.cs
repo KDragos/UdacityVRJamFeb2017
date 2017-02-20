@@ -16,7 +16,17 @@ namespace NewtonVR.Example
 
         private void Update()
         {
-            Text.text = ((int)Knob.transform.localEulerAngles.y).ToString();
+            int angle = (int)Knob.transform.localEulerAngles.y;
+
+            if (angle == 0)
+            {
+                angle = 0;
+            }
+            else {
+                angle = 360 - angle;
+            }
+
+            Text.text = angle.ToString();
         }
     }
 }

@@ -13,6 +13,7 @@ public class LockPad : MonoBehaviour {
     public NVRButton confirm;
     public NVRButton clear;
     public Canvas textField;
+    public NVRInteractableItem doorKnob;
 
     private string inputString;
 
@@ -57,6 +58,7 @@ public class LockPad : MonoBehaviour {
             if (inputString.Equals("1 2 3 4 "))
             {
                 textField.GetComponentInChildren<Image>().color = Color.green;
+                doorKnob.GetComponent<NVRInteractableItem>().enabled = true;
             }
             else {
                 StartCoroutine(displayWrongEffect());

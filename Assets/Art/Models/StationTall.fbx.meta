@@ -1,22 +1,32 @@
 fileFormatVersion: 2
-guid: 013734a96991af64ebc8912ce8d96575
-timeCreated: 1487236285
+guid: 7217804166d265a4e80b209ca11888aa
+timeCreated: 1487580664
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: //RootNode
-    100002: pCube48
-    100004: pCube49
-    400000: //RootNode
-    400002: pCube48
-    400004: pCube49
-    2300000: pCube48
-    2300002: pCube49
-    3300000: pCube48
-    3300002: pCube49
-    4300000: pCube48
-    4300002: pCube49
+    100000: Light
+    100002: LightBase
+    100004: pCube27
+    100006: pCube46
+    100008: //RootNode
+    400000: Light
+    400002: LightBase
+    400004: pCube27
+    400006: pCube46
+    400008: //RootNode
+    2300000: Light
+    2300002: LightBase
+    2300004: pCube27
+    2300006: pCube46
+    3300000: Light
+    3300002: LightBase
+    3300004: pCube27
+    3300006: pCube46
+    4300000: pCube46
+    4300002: Light
+    4300004: LightBase
+    4300006: pCube27
   materials:
     importMaterials: 1
     materialName: 0
@@ -41,7 +51,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 3.9
+    globalScale: 4
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

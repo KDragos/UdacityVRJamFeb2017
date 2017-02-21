@@ -1,22 +1,37 @@
 fileFormatVersion: 2
-guid: 013734a96991af64ebc8912ce8d96575
-timeCreated: 1487236285
+guid: 15c8bdcf023d1c240991a44d847df51f
+timeCreated: 1487579334
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: pCube48
-    100004: pCube49
+    100002: pasted__pCube10
+    100004: pasted__pCube11
+    100006: pasted__pCube3
+    100008: pasted__pCube4
+    100010: pasted__pCube5
     400000: //RootNode
-    400002: pCube48
-    400004: pCube49
-    2300000: pCube48
-    2300002: pCube49
-    3300000: pCube48
-    3300002: pCube49
-    4300000: pCube48
-    4300002: pCube49
+    400002: pasted__pCube10
+    400004: pasted__pCube11
+    400006: pasted__pCube3
+    400008: pasted__pCube4
+    400010: pasted__pCube5
+    2300000: pasted__pCube10
+    2300002: pasted__pCube11
+    2300004: pasted__pCube3
+    2300006: pasted__pCube4
+    2300008: pasted__pCube5
+    3300000: pasted__pCube10
+    3300002: pasted__pCube11
+    3300004: pasted__pCube3
+    3300006: pasted__pCube4
+    3300008: pasted__pCube5
+    4300000: pasted__pCube11
+    4300002: pasted__pCube5
+    4300004: pasted__pCube4
+    4300006: pasted__pCube3
+    4300008: pasted__pCube10
   materials:
     importMaterials: 1
     materialName: 0
@@ -41,7 +56,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 3.9
+    globalScale: 3
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1

@@ -21,6 +21,7 @@ public class Teleporter : MonoBehaviour {
 		this.player.transform.position = teleportLocation.transform.position;
 		// Deactivate the current teleporter so only one player can go through.
 		gameObject.SetActive(false);
+		FindObjectOfType<TimeManager> ().startTimer ();
 
 	}
 

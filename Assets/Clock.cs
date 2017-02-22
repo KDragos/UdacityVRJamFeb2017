@@ -15,7 +15,7 @@ public class Clock : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (timeManager.getTime () != 0) {
+		if (timeManager.getRemainingTime() >= 0f) {
 			timeRemaining.text = timeManager.getTime ();
 		} else {
 			timeRemaining.text = "LOSE!";

@@ -19,10 +19,7 @@ public class TimeManager : UnityEngine.MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (gameInProgress) {
-			Debug.Log ("Remaining Time: " + remainingTime.ToString());	
 
-		}
 	}
 
 	public void startTimer() {
@@ -33,11 +30,7 @@ public class TimeManager : UnityEngine.MonoBehaviour {
 
 	[PunRPC]
 	void StartGameTimer() {
-		Debug.Log ("Network time: " + PhotonNetwork.time);
-		Debug.Log ("Remainging time: " + remainingTime);
-		Debug.Log ("Subtract the two: " + (remainingTime - PhotonNetwork.time).ToString());
 		remainingTime = (float)(remainingTime - PhotonNetwork.time);
-		Debug.Log(remainingTime.ToString());
 		StartCoroutine ("GameCountdown");
 	}
 
@@ -51,6 +44,10 @@ public class TimeManager : UnityEngine.MonoBehaviour {
 			gameInProgress = false;
 			// call end of game method for lose screen and restart game. 
 		}
+	}
+
+	public float getRemainingTime(){
+		return this.remainingTime;
 	}
 
 	public string getTime() {
